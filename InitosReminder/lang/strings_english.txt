@@ -1,0 +1,74 @@
+<?php
+# MantisBT - a php based bugtracking system
+#
+# Copyright (C) 2009 Cas Nuy <cas@nuy.info>.
+# Copyright (C) 2011 Markus Schneider <markus.schneider@initos.com >. 
+# Copyright (C) 2014 Nikolina Todorova <nikolina.todorova@initos.com>.
+#
+# MantisBT is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 2 of the License, or
+# (at your option) any later version.
+#
+# MantisBT is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with MantisBT. If not, see <http://www.gnu.org/licenses/>.
+
+
+$s_config_form_header = "initOS Reminder E-Mail | Configuration";
+$s_config_mail_subject = "Mail Subject";
+$s_config_mail_body = "Mail Body";
+$s_config_sender = "Sender";
+$s_config_run_script = "Run script as?";
+$s_config_filter = "Filter #";
+$s_config_is_filter_active = "Is the filter active?";
+$s_config_active_on = "Active on?";
+$s_config_monday = "Monday";
+$s_config_tuesday = "Tuesday";
+$s_config_wednesday = "Wednesday";
+$s_config_thursday = "Thursday";
+$s_config_friday = "Friday";
+$s_config_saturday = "Saturday";
+$s_config_sunday = "Sunday";
+$s_config_filter_label = "Filter Label";
+$s_config_inactive_days = "Filter by x inactive days?";
+$s_config_within_x_days = "Filter by due within x days?";
+$s_config_dates_in_past = "Regard due dates in the past?";
+$s_config_user_list = "Users list";
+$s_config_use_filter = "Use filter";
+$s_config_remove_filter = "Remove filter";
+$s_config_max_filter = "You reached the maximum number of filters that you can have";
+$s_config_add_filter = "Add filter";
+
+$s_overview_no_users = "No user to report on (or version too old etc.)";
+$s_overview_filter_set_to_inactive = "is set to inactive";
+$s_overview_filter_is_inactive_today = "is inactive today";
+$s_overview_query = "Query";
+$s_overview_not_assigned =  "not assigned";
+$s_overview_issue_id = "Issue-id";
+$s_overview_project_name = "Project name";
+$s_overview_summary = "Summary";
+$s_overview_due_date = "Due date";
+$s_overview_time_left = "Time left";
+$s_overview_status = "Status";
+$s_overview_severity = "Severity";
+$s_overview_priority = "Priority";
+$s_overview_asigned = "Assigned to";
+$s_overview_reported = "Reported by";
+$s_overview_filter = "Filter #";
+
+$s_mailgenerate_no_users = "No user to report on (or version too old etc.)";
+$s_mailgenerate_filter_set_to_inactive = "is set to inactive";
+$s_mailgenerate_filter_is_inactive_today = "is inactive today";
+$s_mailgenerate_query = "Query";
+$s_mailgenerate_filter = "Filter";
+
+$s_initosreminder_overview = "show reminder overview" ;
+$s_plugin_InitosReminder_overview = "initOS Reminder: Overview" ;
+$s_reminder_store_any = "Any";
+$s_reminder_store_disabled = "Disabled";
+$s_reminder_store_enabled = "Enabled";
